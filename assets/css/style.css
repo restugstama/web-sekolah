@@ -611,7 +611,7 @@ header nav .logo {
 }
 img.navbar-logo
 {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 10px 0px 10px;
 	width: 125px;
 	object-fit: contain;
 }
@@ -683,6 +683,7 @@ ul.menu-left {
 	float: left;
 	display: block;
 	max-height: 0;
+	line-height: 90px;
 	/*overflow: hidden;*/
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -692,6 +693,7 @@ ul.menu-left {
 	z-index: 10;
 }
 ul.menu-left:before {
+	line-height: 90px;
 	content: '';
 	display: table;
 	clear: both;
@@ -703,6 +705,7 @@ ul.menu-left.collapse {
 ul.menu-right
 {
 	float: right;
+	line-height: 90px;
 }
 ul.menu-right li 
 {

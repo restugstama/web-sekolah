@@ -46,9 +46,9 @@
 
 <body>
 	<header>
-		<div id="navigation">
+		<nav id="navigation" >
 			<div class="container-fluid">
-				<a href="">
+				<a href="" class="logo">
 					<img class="navbar-logo" src="<?= base_url('assets/images/logo_default.png'); ?>">
 				</a> 
 				<a aria-label="mobile menu" class=nav-toggle>
@@ -56,10 +56,9 @@
 					<span></span>
 					<span></span>
 				</a>
-				<ul class="menu-left">
+				<ul class="menu-left" style="">
 					<li><a href="#Pendaftaran">Tentang kami!</a></li>
 					<li><a href="#Pendaftaran">Gallery</a></li>
-					<li><a href="#Pendaftaran">Pendaftaran</a></li>
 					<li><a href="#Pendaftaran">Pendaftaran</a></li>
 				</ul>
 
@@ -95,7 +94,7 @@
 					</ul>
 				<?php } ?>
 			</div> -->
-		</div>
+		</nav>
 	</header>
 </body>
 </html>
