@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px)
+{
+	/*====================================== SECTION DEFAULT ======================================*/
+	.pras-head
+	{
+		font-size: 36px;
+	}
+	.pras-category
+	{
+		font-size: 20px;
+	}
+	.pras-main, .pras-semi, .pras-info
+	{
+		font-size: 15px;
+	}
+	/*====================================== SECTION NAVBAR ======================================*/
+	header .container-nav
+	{
+		padding: 0 15px;
+	}
+	header nav
+	{
+		padding: 0;
+	}
+	header nav .logo
+	{
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	.nav-toggle
+	{
+		display: block;
+	}
+	img.navbar-logo
+	{
+		width: 60px;
+		margin-top: 15px;
+		margin-left: 0;
+		/*height: 50px;*/
+	}
+	ul.navbar-search
+	{ 
+		max-width: 55%;
+	}
+	ul.menu-right
+	{
+		float: none;
+		clear: both;
+		padding: 0 10px;
+		width: 100%;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	ul.menu-right,
+	ul.menu-right li
+	{
+		padding: 10px 0;
+	}
+	ul.menu-right.collapse
+	{	
+		z-index: 99;
+		background-color: #fff;
+		padding: 10px;
+	}
+	ul.menu-right
+	{
+		float: none;
+		text-align: center;
+	}
+	ul.menu-right li
+	{
+		display: inline-block;
+		margin: 0 15px;
+	}
+	ul.menu-right li .li-register
+	{
+		margin-right: 0;
+	}
+	ul.menu-right li a
+	{
+		color: #010101;
+	}
+	ul.menu-right li a.btn-utama
+	{
+		color: #fff;
+	}
+	ul.menu-right li .li-login.btn-kedua
+	{
+		color: #010101;
+		border-color: #010101;
+	}
+	/*====================================== SECTION LANDING PAGE ======================================*/
+	
+
+}
