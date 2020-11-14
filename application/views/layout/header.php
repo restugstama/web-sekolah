@@ -94,7 +94,5 @@
 					</ul>
 				<?php } ?>
 			</div> -->
-		</nav>
-	</header>
 </body>
 </html>
