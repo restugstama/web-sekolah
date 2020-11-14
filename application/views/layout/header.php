@@ -67,6 +67,8 @@
 					<li><a href="#" class="li-register btn-utama white">Register<i class="fa fa-arrow-right"></i></a></li>
 				</ul>
 			</div>
+		</nav>
+	</header>
 			<!-- <div class="container-fluid container-nav">
 				<a href="" class="logo">
 					<img class="navbar-logo" src="<?=base_url('assets/images/logo-hots.png')?>">
